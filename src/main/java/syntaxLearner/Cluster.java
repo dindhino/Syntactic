@@ -11,7 +11,7 @@ public class Cluster {
 	public final short ID;
 	public int totalSize;	//size of this portion of the corpus
 	public int wordCount;	//individual word
-	public Set<Integer> words;
+	public Set<Integer> words;   //set is an array type that does not allow the duplicate values
 	//private Map<Context,Double> distribution;
 	private double[][] distribution;
 	private final Vocabulary vocab;
